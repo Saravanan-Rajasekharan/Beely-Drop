@@ -37,7 +37,6 @@
     padding-top:10px; 
 }
 
-
 /********************** TITLE *************************/
 
 .title-box{
@@ -113,7 +112,8 @@
     
 }
 
-.button{
+/* Learn more button */
+.LMbutton{
     background-color:#1565D8;
     border: none;
     color: #FFFFFF;
@@ -132,7 +132,7 @@
     
   }
   
-  .button:hover {
+  .LMbutton:hover {
     background-color: #55a5e7;
   }
 
@@ -189,11 +189,11 @@
     flex-wrap: nowrap;
 }
 
-.card{
+.card-cat{
     margin:6px;
     width: 130px;
 }
-.card-body{
+.card-cat-body{
     text-align: center;
     height: 200px;
     color: #183B56 !important;
@@ -219,10 +219,10 @@
    .pop-container{
     height: 552px;
     width: auto;
-    background: #dddddd;
+    background: #F9FAFB;
     padding: 10%;
    }
-   
+  
    .pop-title{
     position: relative;
     height: 32px;
@@ -242,14 +242,86 @@
 
    .cartProd{
     width:25% !important;
+    margin: 5px;
    }
   
    .flex-cont{
     display: flex;
     flex-wrap: nowrap;
-    height: 400px;
+    height: 350px;
    }
+   .card-img-top{
+    height: 300px;
+   }
+   .priceRating{
+    display: flex;
+   }
+   .rating {
+    margin-left: auto;
+  }
+
+
+    /********************* RECOMMENDED PRODUCTS***********************/
+
+    #rec-container{
+        top:1975px;
+        background-color: #F9FAFB;
+        height:600px;
+        width: auto;
+    }
+    .rec-title{
+        margin-top: 46px;
+        margin-left: 137px;
+        padding-top: 50px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+        letter-spacing: 0.2px;
+        color: #161D25;
+    }
+
+    .rec-container{
+        height: 552px;
+        width: auto;
+        background: #F9FAFB;
+        padding-top:5%;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+    .btn-buy-now{
+        padding:10px;
+    }
+    .card-imgtop{
+        height: auto;
+        
+    }
 
 
 
-    /*************************** RECOMMENDED PRODUCTS************************************/
+
+    /* carousel */
+    /* change the carousel control button */
+
+
+
+
+
+
+
+
+
+
+        /********************* Testimonials***********************/
+
+   
+    
+.test-container{
+    height: 447px;
+    color:#F9FAFB;
+
+}
