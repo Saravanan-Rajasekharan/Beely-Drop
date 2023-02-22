@@ -220,15 +220,16 @@
     height: 552px;
     width: auto;
     background: #F9FAFB;
-    padding: 10%;
+    padding-top: 50px;
+    padding-left:9%;
+    padding-right:9%;
    }
   
    .pop-title{
-    position: relative;
-    height: 32px;
-    left: 142px;
-    right: 74.26%;
-    top:60px ;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    padding-left:5px;
+    
     
     font-family: 'Poppins';
     font-style: normal;
